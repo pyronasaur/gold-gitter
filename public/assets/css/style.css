@@ -1,0 +1,178 @@
+html {
+}
+
+body {
+	color:white;
+ 
+
+}
+.tester {
+    border: 2px solid white;
+}
+.overlay {
+    position:  fixed;
+    background-color: rgba(0,0,0,0.6);
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1000;
+}
+.backgroundGame {
+    background: black url("../images/corridor-4415517_1920.jpg") no-repeat fixed top;
+	background-size: cover;
+	height:100%;
+	width:100%;
+	position:fixed;
+	z-index: -1000;
+}
+.overlayGame {
+	background-color: rgba(0,0,0,0.8);
+	height:100%;
+	width:100%;
+	position:fixed;
+	z-index: -990;
+}
+#title {
+}
+.video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+}
+h1 {
+    font-family: 'MedievalSharp', cursive;
+    font-size: 4em;
+    color: white;
+}
+h2 {
+    font-family: 'MedievalSharp', cursive;
+    color: white;
+}
+h4 {
+    font-family: 'MedievalSharp', cursive;
+    color: white;
+}
+.startgame button {
+    font-family: 'MedievalSharp', cursive;
+    color: white;
+    font-size:2em;
+}
+.scroll img {
+    width:1000px;
+}
+.avatarSelected {
+    opacity: 1.0;
+}
+.avatar {
+    opacity: 0.5;
+}
+.avatar:hover {
+    opacity: 1.0;
+}
+#avatar1 {
+    width: 100px;
+    height: 100px;
+    background: url("../images/avatars.png") 0 0;
+}
+#avatar2 {
+    width: 100px;
+    height: 100px;
+    background: url("../images/avatars.png") 0 -100px;
+}
+#avatar3 {
+    width: 100px;
+    height: 100px;
+    background: url("../images/avatars.png") 0 -200px;
+}
+#avatar4 {
+    width: 100px;
+    height: 100px;
+    background: url("../images/avatars.png") -100px 0;
+}
+#avatar5 {
+    width: 100px;
+    height: 100px;
+    background: url("../images/avatars.png") -100px -100px;
+}
+#avatar6 {
+    width: 100px;
+    height: 100px;
+    background: url("../images/avatars.png") -100px -200px;
+}
+#avatar7 {
+    width: 100px;
+    height: 100px;
+    background: url("../images/avatars.png") -200px 0;
+}
+#avatar8 {
+    width: 100px;
+    height: 100px;
+    background: url("../images/avatars.png") -200px -100px;
+}
+#avatar9 {
+    width: 100px;
+    height: 100px;
+    background: url("../images/avatars.png") -200px -200px;
+}
+#room1 {
+    background: url("../images/great hall_scribble_wdoors.jpg") no-repeat;
+	background-size: contain;
+}
+#room2 {
+	background: url("../images/library_scribble_wdoors.jpg") no-repeat;
+	background-size: contain;
+}
+#room3 {
+	background: url("../images/guard_chamber_scribble_wdoors.jpg") no-repeat;
+	background-size: contain;
+}
+#room4 {
+    background: url("../images/solar_scribble_wdoors.jpg") no-repeat;
+	background-size: contain;
+}
+#room5 {
+    background: url("../images/chapel_scribble_wdoors.jpg") no-repeat;
+	background-size: contain;
+}
+.spacer {
+    margin: 10px 0 10px 0;
+}
+
+.block1 {
+    height: 100px;
+}
+.block1-5 {
+    height: 150px;
+}
+.block2 {
+    height: 200px;
+}
+.block3 {
+    height: 300px;
+}
+.block4 {
+    height: 400px;
+}
+.block5 {
+    height: 500px;
+}
+.block6 {
+    height: 600px;
+}
+.stat {
+    height:25px;
+}
+
+#door-straight {
+    position: absolute;
+    left:50%;
+    top: 100px;
+}
+
+#game {
+    max-height: 700px;
+}

@@ -1,0 +1,36 @@
+map screen in middle
+text screen
+stats screen
+dialogue screen
+
+set number of rooms, randomized by backend with different aspects
+
+
+Rooms:
+great hall - 1700 x 1133
+solar - 1700 x 1133
+guard chamber - 1700 x 1133
+chapel - 1700 x 1133
+library - 1700 x 1133
+
+Items:
+apple
+compass
+crossbow
+lantern
+mace
+medicine
+shield
+sleeping bag
+sword
+toaster
+
+Characters:
+demon
+dragon
+giant spider
+griffin
+knight
+ogre
+queen
+siren
